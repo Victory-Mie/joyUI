@@ -1,0 +1,24 @@
+{
+  "name": "joy-comp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "joy-comp",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "joywong",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}
