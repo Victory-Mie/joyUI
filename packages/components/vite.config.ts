@@ -22,7 +22,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../joyui/es",
+          dir: "../joy-comp/es",
         },
         {
           //打包格式
@@ -33,7 +33,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../joyui/lib",
+          dir: "../joy-comp/lib",
         },
       ],
     },
@@ -45,7 +45,7 @@ export default defineConfig({
     vue(),
     dts({
         entryRoot: "./src",
-        outputDir: ["../joyui/es/src", "../joyui/lib/src"],
+        outputDir: ["../joy-comp/es/src", "../joy-comp/lib/src"],
         //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
         tsConfigFilePath: "../../tsconfig.json",
       }),
