@@ -1,0 +1,4 @@
+packages:
+    - 'packages/**' # packages 目录下的所有包都被关联了
+    
+    - 'play' #  packages 目录下的所有包都被关联了,play 项目便可以安装本地 packages 下的包了

@@ -1,0 +1,28 @@
+{
+  "name": "joyui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "joyui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "author": "cathywong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qddidi/easyest"
+  }
+}
